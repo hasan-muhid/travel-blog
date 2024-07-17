@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    font-family: "Mulish", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* color style */
+:root{
+    --button:rgb(255, 84, 0);
+    --text:rgb(19, 19, 24);
+    --dark-2:rgba(66, 66, 71, 1);
+    --white: #FFFFFF;
+    --para:rgba(19, 19, 24, 0.7);
+    --card-title:rgba(19, 19, 24, 1);
+    --card-para:rgba(90, 90, 93, 1);
+    --card-bg:rgba(233, 68, 68, 0.2);
+    --card-bg-blue:rgba(41, 206, 246, 0.2);
+}
+/* header style */
+.nav-bar,  ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.brand img{
+    margin-right: 10px;
+}
+.hero{
+    font-size: 2.1rem;
+    color: var(--card-title);
+    font-weight: 800;
+}
+.travel{
+    font-size: 2.1rem;
+    color: var(--button);
+    font-weight: 800;
+}
+.nav-bar, ul > li{
+    list-style: none;
+}
+.nav-bar, ul  li > a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--dark-2);
+    font-weight: 400;
+    font-family: "Mulish", sans-serif;
+}
+.nav-bar, ul  li > a:hover{
+    color: var(--button);
+
+}
+
+/* hero banner design
+ */
+ .hero-banner{
+    width: 1200px;
+    height: 520px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+ }
+ .hero-title h1{
+    font-size: 4rem;
+    color: var(--white);
+    line-height: 1rem;
+
+ }
+ .hero-para{
+    width: 676px;
+    height: 52px;
+    color: var(--white);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+ }
+ .form{
+    width: 800px;
+    height: 84px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+ }
+ input, button, select{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);   
+    outline: none;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+
+ }
+ input, placeholder{
+    color: rgba(19, 19, 24, 0.5);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+ }
+ select, option{color: rgba(19, 19, 24, 0.5);
+ font-family: Mulish;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 20px;
+}
+
+ button{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+ }
